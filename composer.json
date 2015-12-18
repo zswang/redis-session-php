@@ -1,0 +1,27 @@
+{
+    "name": "redis-session/redis-session",
+    "type": "library",
+    "description": "Flexible and feature-complete PHP client library for Redis",
+    "keywords": ["nosql", "redis", "predis"],
+    "homepage": "https://github.com/TheDeveloper/redis-session-php",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/TheDeveloper/redis-session-php/issues"
+    },
+    "authors": [
+        {
+            "name": "TheDeveloper",
+            "homepage": "https://github.com/TheDeveloper"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "predis/predis": ">=1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {"Predis\\": "src/"}
+    }
+}
